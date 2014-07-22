@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D971F2EA196C241100D8F6C0 /* Emp.m in Sources */ = {isa = PBXBuildFile; fileRef = D971F2E9196C241100D8F6C0 /* Emp.m */; };
 		D98D1222196B7809003D3B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1221196B7809003D3B68 /* Foundation.framework */; };
 		D98D1224196B7809003D3B68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1223196B7809003D3B68 /* CoreGraphics.framework */; };
 		D98D1226196B7809003D3B68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1225196B7809003D3B68 /* UIKit.framework */; };
@@ -14,13 +15,15 @@
 		D98D122E196B7809003D3B68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D122D196B7809003D3B68 /* main.m */; };
 		D98D1232196B7809003D3B68 /* EmpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D1231196B7809003D3B68 /* EmpAppDelegate.m */; };
 		D98D1235196B7809003D3B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98D1233196B7809003D3B68 /* Main.storyboard */; };
-		D98D1238196B7809003D3B68 /* EmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D1237196B7809003D3B68 /* EmpViewController.m */; };
 		D98D123A196B7809003D3B68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98D1239196B7809003D3B68 /* Images.xcassets */; };
 		D98D1241196B7809003D3B68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1240196B7809003D3B68 /* XCTest.framework */; };
 		D98D1242196B7809003D3B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1221196B7809003D3B68 /* Foundation.framework */; };
 		D98D1243196B7809003D3B68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1225196B7809003D3B68 /* UIKit.framework */; };
 		D98D124B196B7809003D3B68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98D1249196B7809003D3B68 /* InfoPlist.strings */; };
 		D98D124D196B7809003D3B68 /* ChallangeEmployeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D124C196B7809003D3B68 /* ChallangeEmployeTests.m */; };
+		D98D1258196B78C0003D3B68 /* challangeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D1257196B78C0003D3B68 /* challangeTableViewController.m */; };
+		D98D1261196B7A0F003D3B68 /* AccountViewContorollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D1260196B7A0F003D3B68 /* AccountViewContorollerViewController.m */; };
+		D98D1264196B951A003D3B68 /* EmpChallangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D1263196B951A003D3B68 /* EmpChallangeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D971F2E8196C241100D8F6C0 /* Emp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emp.h; sourceTree = "<group>"; };
+		D971F2E9196C241100D8F6C0 /* Emp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emp.m; sourceTree = "<group>"; };
 		D98D121E196B7809003D3B68 /* ChallangeEmploye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallangeEmploye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98D1221196B7809003D3B68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D98D1223196B7809003D3B68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +50,18 @@
 		D98D1230196B7809003D3B68 /* EmpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmpAppDelegate.h; sourceTree = "<group>"; };
 		D98D1231196B7809003D3B68 /* EmpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmpAppDelegate.m; sourceTree = "<group>"; };
 		D98D1234196B7809003D3B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D98D1236196B7809003D3B68 /* EmpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmpViewController.h; sourceTree = "<group>"; };
-		D98D1237196B7809003D3B68 /* EmpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmpViewController.m; sourceTree = "<group>"; };
 		D98D1239196B7809003D3B68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D98D123F196B7809003D3B68 /* ChallangeEmployeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallangeEmployeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98D1240196B7809003D3B68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D98D1248196B7809003D3B68 /* ChallangeEmployeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChallangeEmployeTests-Info.plist"; sourceTree = "<group>"; };
 		D98D124A196B7809003D3B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D98D124C196B7809003D3B68 /* ChallangeEmployeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallangeEmployeTests.m; sourceTree = "<group>"; };
+		D98D1256196B78C0003D3B68 /* challangeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = challangeTableViewController.h; sourceTree = "<group>"; };
+		D98D1257196B78C0003D3B68 /* challangeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = challangeTableViewController.m; sourceTree = "<group>"; };
+		D98D125F196B7A0F003D3B68 /* AccountViewContorollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewContorollerViewController.h; sourceTree = "<group>"; };
+		D98D1260196B7A0F003D3B68 /* AccountViewContorollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewContorollerViewController.m; sourceTree = "<group>"; };
+		D98D1262196B951A003D3B68 /* EmpChallangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpChallangeViewController.h; sourceTree = "<group>"; };
+		D98D1263196B951A003D3B68 /* EmpChallangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpChallangeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				D98D1230196B7809003D3B68 /* EmpAppDelegate.h */,
 				D98D1231196B7809003D3B68 /* EmpAppDelegate.m */,
 				D98D1233196B7809003D3B68 /* Main.storyboard */,
-				D98D1236196B7809003D3B68 /* EmpViewController.h */,
-				D98D1237196B7809003D3B68 /* EmpViewController.m */,
+				D98D1256196B78C0003D3B68 /* challangeTableViewController.h */,
+				D98D1257196B78C0003D3B68 /* challangeTableViewController.m */,
+				D98D125F196B7A0F003D3B68 /* AccountViewContorollerViewController.h */,
+				D98D1260196B7A0F003D3B68 /* AccountViewContorollerViewController.m */,
+				D98D1262196B951A003D3B68 /* EmpChallangeViewController.h */,
+				D98D1263196B951A003D3B68 /* EmpChallangeViewController.m */,
+				D971F2E8196C241100D8F6C0 /* Emp.h */,
+				D971F2E9196C241100D8F6C0 /* Emp.m */,
 				D98D1239196B7809003D3B68 /* Images.xcassets */,
 				D98D1228196B7809003D3B68 /* Supporting Files */,
 			);
@@ -250,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D971F2EA196C241100D8F6C0 /* Emp.m in Sources */,
+				D98D1261196B7A0F003D3B68 /* AccountViewContorollerViewController.m in Sources */,
+				D98D1258196B78C0003D3B68 /* challangeTableViewController.m in Sources */,
 				D98D122E196B7809003D3B68 /* main.m in Sources */,
-				D98D1238196B7809003D3B68 /* EmpViewController.m in Sources */,
+				D98D1264196B951A003D3B68 /* EmpChallangeViewController.m in Sources */,
 				D98D1232196B7809003D3B68 /* EmpAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +475,7 @@
 				D98D1252196B7809003D3B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D98D1253196B7809003D3B68 /* Build configuration list for PBXNativeTarget "ChallangeEmployeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +484,7 @@
 				D98D1255196B7809003D3B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
